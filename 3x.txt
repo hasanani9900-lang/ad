@@ -1,0 +1,250 @@
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Latar belakang gelap */
+    .popup-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.7);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    /* Kotak popup */
+    .popup-box {
+        background: #1a1a1a;
+        width: 340px;
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+        position: relative;
+        color: #fff;
+        animation: fadeIn 0.4s ease;
+        text-align: center;
+    }
+
+    /* Tombol close */
+    .close-btn {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: red;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    /* Gambar */
+    .popup-box img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    /* Tombol daftar & login */
+    .btn {
+        display: block;
+        padding: 12px;
+        margin: 8px 0;
+        text-align: center;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .btn-daftar {
+        background: #ff0000;
+        box-shadow: 0 0 10px #ff0000;
+    }
+
+    .btn-login {
+        background: #ff6600;
+        box-shadow: 0 0 10px #ff6600;
+    }
+
+    /* Animasi */
+    @keyframes fadeIn {
+        from { opacity: 0; transform: scale(0.8); }
+        to   { opacity: 1; transform: scale(1); }
+    }
+</style>
+
+</head>
+<body>
+
+<!-- Popup -->
+<div class="popup-overlay" id="popup">
+    <div class="popup-box">
+        <button class="close-btn" onclick="closePopup()">X</button>
+
+        <img src="https://i.pinimg.com/736x/8c/31/cc/8c31cca1fa4d9b519272305d4777af95.jpg" alt="Promo">
+
+        <h3>FUFUSLOT BONUS DEPOSIT 200% TANPA TO!</h3>
+
+        <!-- Tombol daftar -->
+        <a href="https://jadikaya138resmi.pages.dev/register" class="btn btn-daftar">DAFTAR</a></p>
+
+        <!-- Tombol login -->
+        <a href="https://jadikaya138resmi.pages.dev/register" class="btn btn-login">LOGIN</a></p>
+    </div>
+</div>
+
+<script>
+    // Muncul otomatis setelah 2 detik
+    setTimeout(() => {
+        document.getElementById("popup").style.display = "flex";
+    }, 2000);
+
+    // Tutup popup
+    function closePopup() {
+        document.getElementById("popup").style.display = "none";
+    }
+
+    // Klik di luar popup tutup
+    document.getElementById("popup").addEventListener("click", (e) => {
+        if (e.target === e.currentTarget) closePopup();
+    });
+</script>
+<div id="link-list" style="display:none;">
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">FUFUSLOT</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">FUFUSLOT slot</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">agen FUFUSLOT</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">link FUFUSLOT</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">daftar FUFUSLOT</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">link alternatif FUFUSLOT</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">FUFUSLOT livechat</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">admin FUFUSLOT</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">FUFUSLOT gacor</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">FUFUSLOT toto</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">Slot online FUFUSLOT</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">judi slot FUFUSLOT</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">FUFUSLOT vip</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">FUFUSLOT togel</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">FUFUSLOT bonus</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">FUFUSLOT Rtp</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">FUFUSLOT Togel</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">FUFUSLOT Casino</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">FUFUSLOT bet</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">FUFUSLOT Telegram</a></p>
+<p><a href="https://acupressureindia.com/clientshop/" class="hidden-link">FUFUSLOT Official</a></p>
+<a href="https://acupressureindia.com/clientshop/">FUFUSLOT</a>
+<a href="https://acupressureindia.com/clientshop/">FUFUSLOT slot</a>
+<a href="https://acupressureindia.com/clientshop/">agen FUFUSLOT</a>
+<a href="https://acupressureindia.com/clientshop/">link FUFUSLOT</a>
+<a href="https://acupressureindia.com/clientshop/">daftar FUFUSLOT</a>
+<a href="https://acupressureindia.com/clientshop/">link alternatif FUFUSLOT</a>
+<a href="https://acupressureindia.com/clientshop/">FUFUSLOT livechat</a>
+<a href="https://acupressureindia.com/clientshop/">admin FUFUSLOT</a>
+<a href="https://acupressureindia.com/clientshop/">FUFUSLOT gacor</a>
+<a href="https://acupressureindia.com/clientshop/">FUFUSLOT toto</a>
+<a href="https://acupressureindia.com/clientshop/">Slot online FUFUSLOT</a>
+<a href="https://acupressureindia.com/clientshop/">judi slot FUFUSLOT</a>
+<a href="https://acupressureindia.com/clientshop/">FUFUSLOT vip</a>
+<a href="https://acupressureindia.com/clientshop/">FUFUSLOT togel</a>
+<a href="https://acupressureindia.com/clientshop/">FUFUSLOT bonus</a>
+<a href="https://acupressureindia.com/clientshop/">FUFUSLOT Rtp</a>
+<a href="https://acupressureindia.com/clientshop/">FUFUSLOT Togel</a>
+<a href="https://acupressureindia.com/clientshop/">FUFUSLOT Casino</a>
+<a href="https://acupressureindia.com/clientshop/">FUFUSLOT bet</a>
+<a href="https://acupressureindia.com/clientshop/">FUFUSLOT Telegram</a>
+<a href="https://acupressureindia.com/clientshop/">FUFUSLOT Official</a>
+<p><a href="https://galaproduction.id/" class="hidden-link">JADIKAYA138</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">JADIKAYA138 slot</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">agen JADIKAYA138</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">link JADIKAYA138</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">daftar JADIKAYA138</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">link alternatif JADIKAYA138</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">JADIKAYA138 livechat</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">admin JADIKAYA138</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">JADIKAYA138 gacor</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">JADIKAYA138 toto</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">Slot online JADIKAYA138</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">judi slot JADIKAYA138</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">JADIKAYA138 vip</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">JADIKAYA138 togel</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">JADIKAYA138 bonus</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">JADIKAYA138 Rtp</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">JADIKAYA138 Togel</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">JADIKAYA138 Casino</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">JADIKAYA138 bet</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">JADIKAYA138 Telegram</a></p>
+<p><a href="https://galaproduction.id/" class="hidden-link">JADIKAYA138 Official</a></p>
+<a href="https://galaproduction.id/">JADIKAYA138</a>
+<a href="https://galaproduction.id/">JADIKAYA138 slot</a>
+<a href="https://galaproduction.id/">agen JADIKAYA138</a>
+<a href="https://galaproduction.id/">link JADIKAYA138</a>
+<a href="https://galaproduction.id/">daftar JADIKAYA138</a>
+<a href="https://galaproduction.id/">link alternatif JADIKAYA138</a>
+<a href="https://galaproduction.id/">JADIKAYA138 livechat</a>
+<a href="https://galaproduction.id/">admin JADIKAYA138</a>
+<a href="https://galaproduction.id/">JADIKAYA138 gacor</a>
+<a href="https://galaproduction.id/">JADIKAYA138 toto</a>
+<a href="https://galaproduction.id/">Slot online JADIKAYA138</a>
+<a href="https://galaproduction.id/">judi slot JADIKAYA138</a>
+<a href="https://galaproduction.id/">JADIKAYA138 vip</a>
+<a href="https://galaproduction.id/">JADIKAYA138 togel</a>
+<a href="https://galaproduction.id/">JADIKAYA138 bonus</a>
+<a href="https://galaproduction.id/">JADIKAYA138 Rtp</a>
+<a href="https://galaproduction.id/">JADIKAYA138 Togel</a>
+<a href="https://galaproduction.id/">JADIKAYA138 Casino</a>
+<a href="https://galaproduction.id/">JADIKAYA138 bet</a>
+<a href="https://galaproduction.id/">JADIKAYA138 Telegram</a>
+<a href="https://galaproduction.id/">JADIKAYA138 Official</a>
+<p><a href="https://www.happybin.pk/" class="hidden-link">Holywings77</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">Holywings77 slot</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">agen Holywings77</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">link Holywings77</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">daftar Holywings77</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">link alternatif Holywings77</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">Holywings77 livechat</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">admin Holywings77</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">Holywings77 gacor</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">Holywings77 toto</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">Slot online Holywings77</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">judi slot Holywings77</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">Holywings77 vip</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">Holywings77 togel</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">Holywings77 bonus</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">Holywings77 Rtp</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">Holywings77 Togel</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">Holywings77 Casino</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">Holywings77 bet</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">Holywings77 Telegram</a></p>
+<p><a href="https://www.happybin.pk/" class="hidden-link">Holywings77 Official</a></p>
+<a href="https://www.happybin.pk/">Holywings77</a>
+<a href="https://www.happybin.pk/">Holywings77 slot</a>
+<a href="https://www.happybin.pk/">agen Holywings77</a>
+<a href="https://www.happybin.pk/">link Holywings77</a>
+<a href="https://www.happybin.pk/">daftar Holywings77</a>
+<a href="https://www.happybin.pk/">link alternatif Holywings77</a>
+<a href="https://www.happybin.pk/">Holywings77 livechat</a>
+<a href="https://www.happybin.pk/">admin Holywings77</a>
+<a href="https://www.happybin.pk/">Holywings77 gacor</a>
+<a href="https://www.happybin.pk/">Holywings77 toto</a>
+<a href="https://www.happybin.pk/">Slot online Holywings77</a>
+<a href="https://www.happybin.pk/">judi slot Holywings77</a>
+<a href="https://www.happybin.pk/">Holywings77 vip</a>
+<a href="https://www.happybin.pk/">Holywings77 togel</a>
+<a href="https://www.happybin.pk/">Holywings77 bonus</a>
+<a href="https://www.happybin.pk/">Holywings77 Rtp</a>
+<a href="https://www.happybin.pk/">Holywings77 Togel</a>
+<a href="https://www.happybin.pk/">Holywings77 Casino</a>
+<a href="https://www.happybin.pk/">Holywings77 bet</a>
+<a href="https://www.happybin.pk/">Holywings77 Telegram</a>
+<a href="https://www.happybin.pk/">Holywings77 Official</a>
+</div>
