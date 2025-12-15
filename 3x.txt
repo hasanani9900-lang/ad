@@ -94,7 +94,7 @@
 
         <img src="https://i.pinimg.com/736x/8c/31/cc/8c31cca1fa4d9b519272305d4777af95.jpg" alt="Promo">
 
-        <h3>FUFUSLOT BONUS DEPOSIT 200% TANPA TO!</h3>
+        <h3>JADIKAYA138 DEPOSIT 100K BONUS DEPOSIT 200% TANPA TO!</h3>
 
         <!-- Tombol daftar -->
         <a href="https://jadikaya138resmi.pages.dev/register" class="btn btn-daftar">DAFTAR</a></p>
